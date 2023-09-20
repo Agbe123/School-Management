@@ -1,148 +1,213 @@
-/********** Common CSS Starts **********/  
+/********** Common CSS Starts **********/
 * {
-    margin:0px;
-    padding:0px;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
-    outline:0 
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
 }
 html {
-    -webkit-text-size-adjust:100%;
-    -ms-text-size-adjust:100%;
-    font-size:10px;
-    -webkit-tap-highlight-color:transparent 
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-size: 10px;
+  -webkit-tap-highlight-color: transparent;
 }
-html, body {
-    font-family: Roboto, sans-serif, arial;
-    font-size: 14px;
-    color: #242424;
-    font-weight: 400;
+html,
+body {
+  font-family: Roboto, sans-serif, arial;
+  font-size: 14px;
+  color: #242424;
+  font-weight: 400;
 }
 .container {
-    width: 1100px;
-    margin:0px auto;
-    display:table;
+  width: 1100px;
+  margin: 0px auto;
+  display: table;
 }
 .width-100 {
-    width: 100%;
-    float: left;
+  width: 100%;
+  float: left;
 }
 .width-25 {
-    width: 25%;
-    float: left;
+  width: 25%;
+  float: left;
 }
 .width-33 {
-    width: 33%;
-    float: left;
+  width: 33%;
+  float: left;
 }
 .width-50 {
-    float: left;
-    width: 50%;
+  float: left;
+  width: 50%;
 }
 .width-66 {
-    width: 66%;
-    float: left;
+  width: 66%;
+  float: left;
 }
 .width-75 {
-    width:75%;
-    float: left;
+  width: 75%;
+  float: left;
 }
 .mt-20 {
-    margin-top:20px;
+  margin-top: 20px;
 }
 .mt-30 {
-    margin-top:30px;
+  margin-top: 30px;
 }
 .mt-50 {
-    margin-top:50px;
+  margin-top: 50px;
 }
-.main-section{
-    width: 100%;
-    float: left;
-    padding-top:70px;
-    padding-bottom:70px;
+.main-section {
+  width: 100%;
+  float: left;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 /********** Common CSS Ends **********/
 
-/********** Top Header CSS Starts **********/  
+/********** Top Header CSS Starts **********/
 .header {
-    background-color: #120055;
+  background-color: #120055;
 }
 .head-left ul {
-    list-style:none;
-    float:left;
+  list-style: none;
+  float: left;
 }
 .head-left ul li {
-    border-right: 1px solid rgba(255, 255, 255, .3);
-    border-left: 1px solid rgba(255, 255, 255, .3);
-    float: left;
-    padding: 15px;
-    color: white;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  float: left;
+  padding: 15px;
+  color: #fff;
 }
 .head-left ul li a {
-    color:white;
-    text-decoration:none;
+  color: white;
+  text-decoration: none;
 }
 .notification {
-    padding-top: 17px;
-    color: white;
+  padding-top: 17px;
+  color: white;
 }
 .notification span img {
-    height: 14px;
-    width: 30px;
+  height: 14px;
+  width: 30px;
 }
 .notification span {
-    padding-right: 5px;
+  padding-right: 5px;
 }
 .head-right ul {
-    list-style:none;
-    float: right;
+  list-style: none;
+  float: right;
 }
 .head-right ul li {
-    border-right: 1px solid rgba(255, 255, 255, .3);
-    border-left: 1px solid rgba(255, 255, 255, .3);
-    float: left;
-    padding: 15px;
-    color: white;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  float: left;
+  padding: 15px;
+  color: #fff;
 }
 .head-right ul li a {
-    color:white;
-    text-decoration:none;
+  color: white;
+  text-decoration: none;
 }
 .head-span img {
-    height: 14px;
-    width: 30px;
+  height: 14px;
+  width: 30px;
 }
 /********** Top Header CSS Ends **********/
 
-/********** Logo And Main Menu CSS Starts **********/  
+/********** Logo And Main Menu CSS Starts **********/
 .logo {
-    padding-top:5px;
-    padding-bottom:5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .logo img {
-    height:60px;
+  height: 60px;
 }
 .head-menu {
-    padding-top: 25px;
-    padding-bottom: 12px;
+  padding-top: 25px;
+  padding-bottom: 12px;
 }
 .head-menu ul {
-    list-style: none;
-    float: right;
-    font-size: 14px;
+  list-style: none;
+  float: right;
+  font-size: 14px;
 }
 .head-menu ul li {
-    float: left;
-    padding-left:20px;
+  float: left;
+  padding-left: 20px;
 }
 .head-menu ul li a {
-    color: #4a4a4a;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: bold;
+  color: #4a4a4a;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
 }
 /********** Logo And Main Menu CSS Ends **********/
+
+/********** Slider CSS Starts **********/
+.main-banner {
+  width: 100%;
+}
+/********** Slider CSS Ends **********/
+
+/********** Notice Board, Recent Event CSS Starts **********/
+.note-event {
+  padding: 10px;
+  border: 1px solid #e3e3e3;
+  width: 48%;
+  margin: 1%;
+  float: left;
+}
+.notice-board {
+  padding: 30px;
+  color: #fff;
+  background-color: #120055;
+  width: 100%;
+  float: left;
+}
+.notice-board ul {
+  list-style: none;
+  padding: 0px;
+  width: 100%;
+  float: left;
+}
+.notice-board ul li {
+  font-size: 14px;
+  margin-bottom: 20px;
+  width: 100%;
+  float: left;
+}
+.event-list {
+  padding: 10px;
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid #e1e1e1;
+}
+.event-date {
+  width: 80px;
+  float: left;
+  text-align: center;
+  background: #ffee00;
+  color: #120055;
+  font-weight: 900;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+.event-date p {
+  font-weight: 400;
+}
+.event-date h4 {
+  font-weight: 400;
+  font-size: 28px;
+}
+.event-content {
+  width: calc(100% - 110px);
+  float: left;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+/********** Notice Board, Recent Event CSS Ends **********/
