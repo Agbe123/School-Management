@@ -191,7 +191,7 @@ body {
   width: 80px;
   float: left;
   text-align: center;
-  background: #ffee00;
+  background: #FFBF00;
   color: #120055;
   font-weight: 900;
   padding: 10px 10px;
@@ -211,3 +211,78 @@ body {
   margin-top: 15px;
 }
 /********** Notice Board, Recent Event CSS Ends **********/
+/********** Campus Information CSS Starts **********/  
+.heading-text {
+    color: #064727;
+    font-size: 28px;
+    line-height: 20px;
+}
+.heading-border {
+    background-color: #FFBF00;
+    display: inline-block;
+    height: 3px;
+    margin-bottom: 0;
+    margin-top: 0;
+    position: relative;
+    width: 100px;
+}
+.about-campus {
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+.about-campus p {
+    color: #65716b;
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 23px;
+}
+.about-campus ul {
+    list-style: none;
+    margin-top: 30px;
+    width: 100%;
+    float: left;
+}
+.about-campus li {
+    color: #626262;
+    font-size: 15px;
+    margin-bottom:8px;
+}
+.about-campus li i {
+    color: #22009c;
+}
+.about-year {
+    margin-top:40px;
+}
+.about-year h3 {
+    font-size: 45px;
+    color: #22009c;
+    line-height: 0;
+}
+.about-year span {
+    font-size: 40px;
+    color: #22009c;
+    position: relative;
+    bottom: 5px;
+}
+.about-year h5 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top:20px;
+}
+.about-campus a {
+    padding: 15px;
+    border: none;
+    background-color: #FFBF00;
+    color: white;
+    border-radius: 2px;
+    font-size: 14px;
+    margin-top:25px;
+    float:left;
+    text-decoration:none;
+}
+/* Image slider Starts */
+
+
+/* Image slider Ends */
+/********** Campus Information CSS Ends **********/
