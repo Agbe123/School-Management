@@ -286,3 +286,88 @@ body {
 
 /* Image slider Ends */
 /********** Campus Information CSS Ends **********/
+/********** Achievement CSS Starts **********/  
+.achievement, .achievement-banner {
+  padding: 10px;
+}
+.achievement h3 {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+}
+.achievement p {
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+}
+.achievement a {
+  padding: 10px 14px;
+  background-color: #FFBF00;
+  color: white;
+  border-radius: 2px;
+  font-size: 14px;
+  margin-top: 15px;
+  text-decoration: none;
+  float: left;
+}
+.achievement i{
+  padding: 8px;
+}
+.achievement-banner h5 {
+  font-size: 16px;
+  padding:0px;
+  margin:0px;
+  margin-top: 10px;
+  line-height: 20px;
+}
+.achievement-banner p {
+  font-size: 16px;
+  margin-top: 2px;
+}
+/********** Achievement CSS Ends **********/
+
+/********** Department CSS Starts **********/  
+.bg-lightgrey {
+  background-color:#f7f7f7;
+}
+.department-list {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px 0px;
+  width: 90%;
+  float: left;
+}
+.department-list i {
+  font-size:20px;
+}
+.department h2 {
+  color: #131314;
+  font-size: 28px;
+}
+.department p {
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 25px;
+  font-weight: 400;
+}
+.department a {
+  text-decoration: none;
+  color: #22009c;
+  float: left;
+  margin-top: 20px;
+}
+.bg-yellow {
+  background:#ffc252 
+}
+.bg-blue {
+  background: #add8e6;
+}
+.bg-blue {
+  background: #90ee90;
+}
+.bg-grey {
+  background: #d3d3d3;
+}
+/********** Department CSS Ends **********/
