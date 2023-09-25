@@ -359,15 +359,275 @@ body {
   margin-top: 20px;
 }
 .bg-yellow {
-  background:#ffc252 
+  background: #FFBF00;
+  color: #fff;
+}
+.bg-yellow:hover {
+  background: #ffdb70;
+  color: #141414;
 }
 .bg-blue {
   background: #add8e6;
 }
 .bg-blue {
-  background: #90ee90;
+  background: #22009c;
+  color: #fff;
+}
+.bg-blue:hover {
+  background: #9f85fa;
+  color: #ffffff;
 }
 .bg-grey {
   background: #d3d3d3;
 }
 /********** Department CSS Ends **********/
+
+/********** Testimonial CSS Starts **********/  
+.testimonial {
+  width:100%;
+  float:left;
+  padding-right:20px;
+}
+.testimonial-content {
+  background: #22009c;
+  color: #fff;
+  width: 100%;
+  float: left;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 35px;
+  position: relative;
+}
+.testimonial-content::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 20px;
+  margin-left: 6px;
+  border-width: 34px;
+  border-style: solid;
+  border-color: #22009c transparent transparent;
+  width: 0%;
+}
+.testimonial-detail {
+  width:100%;
+  float:left;
+  margin-top: 40px;
+}
+.testimonial-img {
+  width:90px;
+  float:left;
+  text-align:center 
+}
+.testimonial-img img {
+  width:70px;
+  height:70px;
+  border-radius:50%;
+}
+.testimonial-name {
+  margin-left:10px;
+  float:left;
+  width: calc(100% - 100px);
+  font-size:16px;
+}
+.testimonial-name h5 {
+  font-size:18px;
+  margin-top:10px;
+}
+.testimonial-name p {
+  font-size:16px;
+}
+/********** Testimonial CSS Ends **********/
+
+
+/********** Placement CSS Starts **********/  
+.placement {
+  background-image:url('../images/banner.jpg');
+  background-size:cover;
+  height:400px;
+}
+.placement-sect {
+  padding: 50px;
+}
+.placement-sect h2 {
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+.placement-sect h3 {
+  color: #fff;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.placement-sect h4 {
+  color: #fff;
+  font-size:25px;
+  margin-top:10px;
+}
+.placement-sect p {
+  color: #fff;
+  font-size:18px;
+  margin-top:10px;
+}
+ul.placement-company {
+  width: 100%;
+  float: left;
+  padding: 0px;
+}
+.placement-company li {
+  width: 25%;
+  float: left;
+  text-align: center;
+  list-style: none;
+}
+.placement-company li img {
+  width: auto;
+  height: 70px;
+  max-width: 100%;
+}
+/********** Placement CSS Ends **********/
+
+/********** Gallery CSS Starts **********/  
+.gallery {
+  width:100%;
+  float:left;
+  margin-top:30px;
+}
+.gallery img {
+  height: auto;
+  width: 98%;
+}
+/********** Gallery CSS Ends **********/
+
+/********** Teachers Section CSS Starts **********/  
+.our-teacher {
+  padding:20px;
+  width:100%;
+  float:left;
+}
+.our-teacher p {
+  font-size:15px;
+  line-height: 25px;
+  margin-top:10px;
+}
+.our-teacher a {
+  background: #FFBF00;
+  color: #fff;
+  padding: 14px 20px;
+  float: left;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top:20px;
+}
+.meet-tech {
+  position: relative;
+}
+.meet-tech img {
+  border-radius: 8px;
+  width: 50%;
+  height: auto;
+  padding:5px;
+}
+.meet-tech-div {
+  position: absolute;
+  bottom: 20px;
+  left: 65px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: white;
+  padding:10px;
+}
+/********** Teachers Section CSS Ends **********/
+
+/********** Footer CSS Starts **********/  
+.footer-section {
+  background-color:#120055;
+  padding-top: 70px;
+  padding-bottom:70px;
+  width:100%;
+  float:left;
+}
+.footer-link h2 {
+  color:#fff;
+  text-align:left;
+  margin-bottom: 20px;
+}
+.footer-link p {
+  color: #fff;
+  line-height: 20px;
+  padding: 0px 30px 0px 0px;
+}
+.social-icon {
+  list-style: none;
+  margin-top:20px;
+}
+.social-icon li {
+  float: left;
+  padding-left: 10px;
+}
+.social-icon li a i {
+  color: #fff;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+.social-icon .fa-twitter {
+  background: #2ed1ff;
+}
+.social-icon .fa-whatsapp {
+  background: #FFBF00;
+}
+.social-icon .fa-facebook {
+  background: #FFBF00;
+}
+.social-icon .fa-linkedin {
+  background: #2ed1ff;
+}
+.footer-menu {
+  padding: 0px;
+  width: 100%;
+  float: left;
+  list-style: none;
+}
+.footer-menu li {
+  width: 50%;
+  float: left;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.footer-menu li a {
+  color:#fff;
+  text-decoration: none;
+}
+.footer-contact {
+  list-style: none;
+  padding: 0px;
+  width: 100%;
+  float: left;
+  color: #fff;
+}
+.footer-contact li {
+  width: 100%;
+  float: left;
+  margin-bottom: 10px;
+}
+.footer-contact span {
+  padding-left:5px;
+}
+.newsletter p {
+  margin-bottom:10px;
+}
+.newsletter input {
+  width: 100%;
+  float: left;
+  padding:10px;
+}
+.newsletter button {
+  width: 100%;
+  float: left;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #FFBF00;
+  margin-top:10px;
+}
+/********** Footer CSS Ends **********/

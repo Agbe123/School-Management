@@ -2,48 +2,206 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- css section link  -->
-    <link rel="stylesheet" href="../Style/Home.css">
-
-    <!-- Bootstrapcdn link  -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Student Dashboard</title>
+    <link rel="shortcut icon" href="../images/logo.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="../Style/Admission.css">
     
-    <title>School Management</title>
 </head>
 <body>
-<!---------- Top Header HTML Starts --------->
-<div class="width-100 header">
-    <div class="container ">
-       <div class="width-25 head-left">
-          <ul>
-             <li><a href="../Html/StaffLogin.html"><i class="fa fa-lock"></i> Staff Login</a></li>
-             <li><a href="../Html//StudentLogin.html"><i class="fa fa-lock"></i> Student Login</a></li>
-          </ul>
-       </div>
-       <div class="width-50">
-          <marquee class="notification">
-             <span><img src="../images/new.gif"></span> Examnination Notification <span><img src="../images/new.gif"></span> Get Ready To Explore The Genius  2023 <span><img src="images/new.gif"></span> Enrollment Form Notification 2023 Batch
-          </marquee>
-       </div>
+ <!---------- Top Header HTML Starts --------->
+    <header>
+        <div class="logo" title="Student Management System">
+            <img src="../images/logo.png" alt="">
+            <h2>Best<span class="danger">Scho</span>ol</h2>
+        </div>
+         <!---------- Navbar Section Starts --------->
+        <!-- <div class="navbar">
+            <a href="../Html/Home.html" class="active">
+                <span class="material-icons-sharp">home</span>
+                <h3>Home</h3>
+            </a>
+            <a href="timetable.html" onclick="timeTableAll()">
+                <span class="material-icons-sharp">today</span>
+                <h3>Time Table</h3>
+            </a> 
+            <a href="exam.html">
+                <span class="material-icons-sharp">grid_view</span>
+                <h3>Examination</h3>
+            </a>
+            <a href="../Html/Password.html">
+                <span class="material-icons-sharp">password</span>
+                <h3>Change Password</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp" onclick="">logout</span>
+                <h3>Logout</h3>
+            </a>
+        </div> -->
+         <!---------- Navbar section Endss --------->
+        <div id="profile-btn">
+            <span class="material-icons-sharp">person</span>
+        </div>
        
-    </div>
- </div>
- <!---------- Top Header HTML Ends --------->
+        
+    </header>
+    <!---------- Top Header HTML Starts --------->
+    <div class="container">
+        <aside>
+            <div class="profile">
+                <div class="top">
+                    <div class="profile-photo">
+                        <img src="../images/student.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <p>Full Name</b> </p>
+                        <small class="text-muted">ID:00012102030</small>
+                    </div>
+                </div>
+                 <!---------- About Student Starts --------->
+                <div class="about">
+                    <h5>Student Details</h5>
+                    <p><b>Grade :</b> 1</p>
+                    <p><b>Gender :</b> M</p>
+                    <p><b>Date Of Birth :</b> 02/01/2003</p>
+                    <p><b>Date Of Birth :</b> </p>
 
- <!---------- Logo And Main Menu HTML Starts --------->
-<div class="container">
-    <div class="width-25 logo"> <img src="../images/logo.png"> </div>
-    <div class="width-75 head-menu">
-       <ul>
-         <li><a href="../Html/Home.html"><i class="fa fa-home"></i>Home</a></li>
-         <li><a href="../Html//Admission.html"><i class="fa fa-building"></i>Admission</a></li>
-          <li><a href="../Html//About.html"><i class="fa fa-users"></i>About</a></li>
-       </ul>
+                    <h5>Parent's Details</h5>
+                    <p><b>Parent's Name :</b> </p>
+                    <p><b>Contact :</b> (+233) 000000000</p>
+                    <p><b>Email :</b> unknown@gmail.com</p>
+                    <p><b>Address :</b> Nungua</p>
+                </div>
+                 <!---------- About Student Ends --------->
+            </div>
+        </aside>
+
+        <main>
+            <h1>Attendance</h1>
+            <div class="subjects">
+                <div class="eg">
+                    <span class="material-icons-sharp">architecture</span>
+                    <h3>Engineering Graphics</h3>
+                    <h2>12/14</h2>
+                    <div class="progress">
+                        <svg><circle cx="38" cy="38" r="36"></circle></svg>
+                        <div class="number"><p>86%</p></div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <div class="mth">
+                    <span class="material-icons-sharp">functions</span>
+                    <h3>Mathematical Engineering</h3>
+                    <h2>27/29</h2>
+                    <div class="progress">
+                        <svg><circle cx="38" cy="38" r="36"></circle></svg>
+                        <div class="number"><p>93%</p></div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <div class="cs">
+                    <span class="material-icons-sharp">computer</span>
+                    <h3>Computer Architecture</h3>
+                    <h2>27/30</h2>
+                    <div class="progress">
+                        <svg><circle cx="38" cy="38" r="36"></circle></svg>
+                        <div class="number"><p>81%</p></div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <div class="cg">
+                    <span class="material-icons-sharp">dns</span>
+                    <h3>Database Management</h3>
+                    <h2>24/25</h2>
+                    <div class="progress">
+                        <svg><circle cx="38" cy="38" r="36"></circle></svg>
+                        <div class="number"><p>96%</p></div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <div class="net">
+                    <span class="material-icons-sharp">router</span>
+                    <h3>Network Security</h3>
+                    <h2>25/27</h2>
+                    <div class="progress">
+                        <svg><circle cx="38" cy="38" r="36"></circle></svg>
+                        <div class="number"><p>92%</p></div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+            </div>
+
+            <div class="timetable" id="timetable">
+                <div>
+                    <span id="prevDay">&lt;</span>
+                    <h2>Today's Timetable</h2>
+                    <span id="nextDay">&gt;</span>
+                </div>
+                <span class="closeBtn" onclick="timeTableAll()">X</span>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Room No.</th>
+                            <th>Subject</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </main>
+
+        <div class="right">
+            <div class="announcements">
+                <h2>Announcements</h2>
+                <div class="updates">
+                    <div class="message">
+                        <p> <b>Academic</b> Summer training internship with Live Projects.</p>
+                        <small class="text-muted">2 Minutes Ago</small>
+                    </div>
+                    <div class="message">
+                        <p> <b>Co-curricular</b> Global internship oportunity by Student organization.</p>
+                        <small class="text-muted">10 Minutes Ago</small>
+                    </div>
+                    <div class="message">
+                        <p> <b>Examination</b> Instructions for Mid Term Examination.</p>
+                        <small class="text-muted">Yesterday</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="leaves">
+                <h2>Teachers on leave</h2>
+                <div class="teacher">
+                    <div class="profile-photo"><img src="./images/profile-2.jpeg" alt=""></div>
+                    <div class="info">
+                        <h3>The Professor</h3>
+                        <small class="text-muted">Full Day</small>
+                    </div>
+                </div>
+                <div class="teacher">
+                    <div class="profile-photo"><img src="./images/profile-3.jpg" alt=""></div>
+                    <div class="info">
+                        <h3>Lisa Manobal</h3>
+                        <small class="text-muted">Half Day</small>
+                    </div>
+                </div>
+                <div class="teacher">
+                    <div class="profile-photo"><img src="./images/profile-4.jpg" alt=""></div>
+                    <div class="info">
+                        <h3>Himanshu Jindal</h3>
+                        <small class="text-muted">Full Day</small>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
- </div>
- <!---------- Logo And Main Menu HTML Ends --------->
- 
+
+    <script src="../Js/AdmissionTime.js"></script>
+    <script src="../Js/Admission.js"></script>
 </body>
 </html>
