@@ -83,7 +83,7 @@
 
 .container2 {
     width:;
-    background-color: #55ffe5;
+    background-color: lightgrey;
     margin-top: 30px;
     height: 650px;
 
@@ -99,6 +99,7 @@
     padding: 40px 60px;
     background: #fff;
     color: black;
+    margin-left: 30px;
 }
 
 .contact-right {
@@ -106,6 +107,9 @@
     padding: 40px;
     background: #1c00b5;
     color: white;
+    margin-right: 30px;
+    background-image: url(..//images//class.jpg);
+    
 }
 
 h1 {
@@ -182,6 +186,8 @@ tr td {
 
 .center {
     text-align: center;
+    color: #22009c;
+    
 }
 
 iframe {
