@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: url(../images/loginimage.jpg) no-repeat;
+    background-size: cover;
+}
+.logo_login{
+    display: flex;
+    /* margin-left: 10%; */
+}
+.logo_login img{
+    width: 6%;
+    margin-top: 14px;
+    margin-left: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+form{
+    width: 27%;
+      padding: 50px;
+      border-radius: 10px;
+      background-color: #ffffff;
+      position: absolute;
+      left: 36%;
+      top: 30%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .login__h2{
+color: #00008B;
+text-transform: uppercase;
+font-size: 20px;
+text-align: center;
+margin-bottom: 20px;
+}
+.student__input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;    
+}
+.student__input:hover{
+    
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border: #00008B solid 2px;
+    border-radius: 5px;    
+}
+
+.student__bt{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+    color: #00008B;
+}
+.student__bt:hover{
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+    background-color: #00008B;
+    color: #fff;
+}
+.student__Home{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 80%;
+    margin-top: 20px;
+  
+}
+
+
+
+
+
+.login-form {
+   
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50% , -50%);
+    position: absolute;
+    color: #fff;
+}
+
+.login-form h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+.login-form p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.login-form input {
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.login-form button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+}
