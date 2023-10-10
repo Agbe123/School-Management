@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- css section link   -->
-    <link rel="stylesheet" href="../Style/StaffLogin.css">
+    <link rel="stylesheet" href="../Style/StudentLogin.css">
     <link rel="shortcut icon" href="../images/logo.png">
     
 
@@ -18,101 +18,53 @@
     <title>School Management</title>
 </head>
 <body>
+   <!--Student login page begins-->
+   <div class="logo_login">
+    <img src="../images/logo.png" alt="" />
+    <a href="../Html/Home.html" class="student__Home">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-arrow-left-short"
+        viewBox="0 0 16 16"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"
+        />
+      </svg>
+      Go Back Home</a
+    >
+  </div>
+  
+  <div class="student__login">
+    <div class="form">
+      
+      <form action="" method="post" name="student" action="Admission.html" onsubmit="">
+       
+        <h2 class="login__h2">Staff Login</h2>
+        <!-- <label for="uname">Staff ID or Name</label><br> -->
+        <input
+          class="student__input"
+          type="text"
+          placeholder="Staff Id or name "
+        /><br /><br />
+        <!-- <label for="password">Password</label><br> -->
+        <input
+          class="student__input"
+          type="password"
+          name="password" 
+          placeholder="Password"
+        /><br /><br />
+        <input type="submit" class="student__bt" value="Log in" />
+      </form>
+    </div>
+  </div>
+  <!--Staff longin page ends-->
 
+  <script src="../Js/StudentLogin.js"></script>
 
-
-
-
-
-<!---------- Footer HTML Starts --------->
-<div class="footer-section">
-   <div class="container">
-     <div class="width-25">
-       <div class="footer-link">
-         <h2>About us</h2>
-         <p>
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. At illum
-           reprehenderit harum eaque a libero voluptatem deserunt porro
-           voluptatibus dignissimos.
-         </p>
-         <ul class="social-icon">
-           <li>
-             <a href="#"><i class="fa fa-twitter"></i></a>
-           </li>
-           <li>
-             <a href="##"><i class="fa fa-whatsapp"></i></a>
-           </li>
-           <li>
-             <a href="#"><i class="fa fa-facebook"></i></a>
-           </li>
-           <li>
-             <a href="#"><i class="fa fa-linkedin"></i></a>
-           </li>
-         </ul>
-       </div>
-     </div>
-     <div class="width-25">
-       <div class="footer-link">
-         <h2>Featured Links</h2>
-         <div class="width-100">
-           <ul class="footer-menu">
-             <li>
-               <a href="#"><i class="fa fa-angle-right"></i> Home</a>
-             </li>
-             <li>
-               <a href="#"><i class="fa fa-angle-right"></i> Admission</a>
-             </li>
-             <li>
-               <a href="#"><i class="fa fa-angle-right"></i> About</a>
-             </li>
-             <li>
-               <a href="#"
-                 ><i class="fa fa-angle-right"></i> Student Log In</a
-               >
-             </li>
-             <li>
-               <a href="#"><i class="fa fa-angle-right"></i> Staff Log In</a>
-             </li>
-           </ul>
-         </div>
-       </div>
-     </div>
-     <div class="width-25">
-       <div class="footer-link">
-         <h2>Contact Info</h2>
-         <ul class="footer-contact">
-           <li>
-             <i class="fa fa-envelope-o"></i>
-             <span>E-MAIL: info@gmail.com</span>
-           </li>
-           <li>
-             <i class="fa fa-whatsapp"></i>
-             <span> WHATS-APP: +233 000 00 000 00</span>
-           </li>
-           <li>
-             <i class="fa fa-fax"></i>
-             <span> CONTACT NO.: +233 000 00 000 00</span>
-           </li>
-           <li>
-             <i class="fa fa-globe"></i>
-             <span>WEBSITE: https://www.Bestschool.com</span>
-           </li>
-         </ul>
-       </div>
-     </div>
-     <div class="width-25">
-       <div class="footer-link newsletter">
-         <h2>Newsletter</h2>
-         <p>Welcome To The Best School</p>
-         <input type="text" name="" placeholder="E-mail" />
-         <button>Subscribe Now</button>
-       </div>
-     </div>
-   </div>
- </div>
- <!---------- Footer HTML Ends --------->
-
-
- <script src="../Js/StaffLogin.js"></script>
 </body>
 </html>
