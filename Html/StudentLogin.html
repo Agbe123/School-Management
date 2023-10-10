@@ -42,24 +42,26 @@
     <div class="student__login">
       <div class="form">
         
-        <form action="" method="post" name="studentForm" action="../Html/Admission.html" onsubmit="return validateForm()">
+        <form name="studentForm" id=" studentForm" action="post">
          
           <h2 class="login__h2">Student Login</h2>
           <!-- <label for="uname">Student ID or Name</label><br> -->
           <input
           name="studentId"
+          id="studentId"
             class="student__input"
             type="text"
-            placeholder="Student Id or name "
+            placeholder="Student Id or Full name "
           /><br /><br />
           <!-- <label for="password">Password</label><br> -->
           <input
             class="student__input"
             type="pin"
+            id="pin"
             name="pin" 
             placeholder="pin"
           /><br /><br />
-          <input type="submit" class="student__bt" value="Log in" />
+          <input type="submit" class="student__bt" value="Log in"  onClick="validateForm()"/>
         </form>
       </div>
     </div>
