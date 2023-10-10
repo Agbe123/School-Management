@@ -42,11 +42,12 @@
     <div class="student__login">
       <div class="form">
         
-        <form action="" method="post" name="student" action="Admission.html" onsubmit="">
+        <form action="" method="post" name="studentForm" action="../Html/Admission.html" onsubmit="return validateForm()">
          
           <h2 class="login__h2">Student Login</h2>
           <!-- <label for="uname">Student ID or Name</label><br> -->
           <input
+          name="studentId"
             class="student__input"
             type="text"
             placeholder="Student Id or name "
@@ -54,9 +55,9 @@
           <!-- <label for="password">Password</label><br> -->
           <input
             class="student__input"
-            type="password"
-            name="password" 
-            placeholder="Password"
+            type="poin"
+            name="poin" 
+            placeholder="poin"
           /><br /><br />
           <input type="submit" class="student__bt" value="Log in" />
         </form>
