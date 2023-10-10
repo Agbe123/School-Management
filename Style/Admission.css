@@ -55,9 +55,14 @@ body{
 *{
     color: var(--color-dark);
 }
-img{
-    display: block;
-    width: 200%;
+
+.admin__back{
+    margin-left: 90rem;
+    margin-top: 2rem;
+    font-size:18px;
+}
+.admin__back:hover{
+  
 }
 h1{
     font-weight: 800;
@@ -101,8 +106,8 @@ header .logo{
     margin-right: auto;
 }
 header .logo img{
-    width: 2rem;
-    height: 2rem;
+    width: 9rem;
+    height: 9rem;
 }
 
 header,
@@ -195,7 +200,6 @@ aside .profile .top .profile-photo{
     transition: all 400ms ease;
 }
 .profile-photo img{
-    /* padding: 10px; */
     display: block;
     margin-right: auto;
     margin-left: auto;
