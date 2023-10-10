@@ -18,15 +18,14 @@ function validateForm(){
     // event.preventDefault();
 
 
-    let studentId=document.studentForm.studentId.value;
-    let pin=document.studentForm.pin.value
+    let studentId=document.getElementById("studentId").value;
+    let pin=document.getElementById("pin").value;
 
-if (studentId==null||studentId=="") {
+if (studentId===null && pin ==="user") {
     alert("StudentId can't be blank.");
-    window.location.replace("Admission.html")
-    return false
-}else if (pin.lenght<6) {
+    window.location.replace("/Admission.html")
+}else {
     alert("Pin must be at least 6 characters long.");
-    return false;
+    return;
 }
 }
