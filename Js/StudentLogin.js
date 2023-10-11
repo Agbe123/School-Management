@@ -23,7 +23,7 @@ function validateForm(){
 
 if (studentId===null && pin ==="user") {
     alert("StudentId can't be blank.");
-    window.location.replace("/Admission.html")
+    location=location ['href/../Js/Admission.html']
 }else {
     alert("Pin must be at least 6 characters long.");
     return;
